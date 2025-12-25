@@ -1,0 +1,20 @@
+# Core Computer Vision
+opencv-python>=4.9.0
+
+# Numerical computing
+numpy>=1.23.0
+
+# Logging & utilities (built-in, listed for clarity)
+# logging
+# datetime
+# os
+
+# Flask (for web streaming)
+flask>=3.0.0
+
+# Deep Learning (CNN classifier)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image handling
+Pillow>=9.5.0
