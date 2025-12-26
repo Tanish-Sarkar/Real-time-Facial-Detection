@@ -1,5 +1,10 @@
 import cv2 
 from pathlib import Path
+import os
+import logging
+from datetime import datetime
+
+
 
 def is_blurry(gray_roi, thresold=80):
     laplacian_var = cv2.Laplacian(gray_roi, cv2.CV_64F).var()
@@ -25,7 +30,11 @@ def main():
     
     print("✅ Face detection started. Press 'q' to quit.")
 
+    last_saved_time = 0
+    SAVE_INTERVAL = 5  # seconds
+
     while True:
+
         ret, frame = cap.read()
         if not ret:
             print("Failed to read frame from webcam.")
@@ -59,6 +68,17 @@ def main():
         )
 
 
+        # Ensure directories exist
+        os.makedirs("saved_frames", exist_ok=True)
+        os.makedirs("logs", exist_ok=True)
+
+        # Setup logging
+        logging.basicConfig(
+            filename= f"logs/detections.log",
+            level= logging.INFO,
+            format="%(asctime)s | %(message)s",
+        )
+
         # display 
         for (x, y, w, h) in faces:
             face_gray = gray[y:y+h, x:x+w]
@@ -71,6 +91,19 @@ def main():
             else:
                 color = (0, 255, 0)
                 label = "CLEAR"
+
+
+            current_time = datetime.now().timestamp()
+            if blurry and (current_time - last_saved_time) > SAVE_INTERVAL:
+                filename = f"saved_frames/blur_{datetime.now().strftime('%Y%m%d_%H%M%S')}.jpg"
+                cv2.imwrite(filename, frame)
+
+                logging.info(
+                    f"BLUR_DETECTED | blur_score={blur_score:.2f} | faces={len(faces)}"
+                )
+                
+                print(f"📸 Saved blurry frame: {filename}")
+                last_saved_time = current_time
 
             # Draw bounding box
             cv2.rectangle(frame, (x, y), (x + w, y + h), color, 2)
