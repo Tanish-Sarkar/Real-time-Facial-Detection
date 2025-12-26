@@ -27,6 +27,7 @@ This project focuses on **classical computer vision + real-time systems engineer
 
 ## 🧠 System Architecture
 
+```mermaid
 graph TD;
 A[Webcam] --> B[OpenCV Frame Capture];
 B --> C[Grayscale Conversion];
@@ -35,6 +36,7 @@ D --> E[Blur Detection (Laplacian Variance)];
 E --> F[Annotation (Boxes + Labels)];
 F --> G[MJPEG Stream (Flask)];
 G --> H[Browser Display];
+```
 
 ---
 
