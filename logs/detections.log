@@ -5,3 +5,173 @@
 2025-12-26 12:16:58,206 | BLUR_DETECTED | blur_score=21.56 | faces=1
 2025-12-26 12:17:03,232 | BLUR_DETECTED | blur_score=51.57 | faces=1
 2025-12-26 12:17:08,357 | BLUR_DETECTED | blur_score=16.84 | faces=2
+2025-12-26 19:13:12,188 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.150.14.104:5000
+2025-12-26 19:13:12,303 | [33mPress CTRL+C to quit[0m
+2025-12-26 19:19:43,433 | 127.0.0.1 - - [26/Dec/2025 19:19:43] "GET / HTTP/1.1" 200 -
+2025-12-26 19:19:43,627 | 127.0.0.1 - - [26/Dec/2025 19:19:43] "[33mGET /video_feed HTTP/1.1[0m" 404 -
+2025-12-26 19:19:43,715 | 127.0.0.1 - - [26/Dec/2025 19:19:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-26 19:21:51,057 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.150.14.104:5000
+2025-12-26 19:21:51,057 | [33mPress CTRL+C to quit[0m
+2025-12-26 19:21:51,076 | 127.0.0.1 - - [26/Dec/2025 19:21:51] "[33mGET /video_feed HTTP/1.1[0m" 404 -
+2025-12-26 19:21:54,823 | 127.0.0.1 - - [26/Dec/2025 19:21:54] "[33mGET /video_feed HTTP/1.1[0m" 404 -
+2025-12-26 19:22:00,712 | 127.0.0.1 - - [26/Dec/2025 19:22:00] "[33mGET /video_feed HTTP/1.1[0m" 404 -
+2025-12-26 19:22:05,406 | 127.0.0.1 - - [26/Dec/2025 19:22:05] "GET / HTTP/1.1" 200 -
+2025-12-26 19:22:05,424 | 127.0.0.1 - - [26/Dec/2025 19:22:05] "[33mGET /video_feed HTTP/1.1[0m" 404 -
+2025-12-26 19:22:17,710 | 127.0.0.1 - - [26/Dec/2025 19:22:17] "[33mGET /video_feed HTTP/1.1[0m" 404 -
+2025-12-26 19:27:09,556 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.150.14.104:5000
+2025-12-26 19:27:09,557 | [33mPress CTRL+C to quit[0m
+2025-12-26 19:27:20,046 | 127.0.0.1 - - [26/Dec/2025 19:27:20] "GET / HTTP/1.1" 200 -
+2025-12-26 19:27:20,094 | 127.0.0.1 - - [26/Dec/2025 19:27:20] "[33mGET /video_feed HTTP/1.1[0m" 404 -
+2025-12-26 19:27:22,369 | 127.0.0.1 - - [26/Dec/2025 19:27:22] "GET / HTTP/1.1" 200 -
+2025-12-26 19:27:22,392 | 127.0.0.1 - - [26/Dec/2025 19:27:22] "[33mGET /video_feed HTTP/1.1[0m" 404 -
+2025-12-26 19:27:35,858 | 127.0.0.1 - - [26/Dec/2025 19:27:35] "GET / HTTP/1.1" 200 -
+2025-12-26 19:27:35,912 | 127.0.0.1 - - [26/Dec/2025 19:27:35] "[33mGET /video_feed HTTP/1.1[0m" 404 -
+2025-12-26 19:27:37,741 | 127.0.0.1 - - [26/Dec/2025 19:27:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-26 19:31:58,074 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.150.14.104:5000
+2025-12-26 19:31:58,074 | [33mPress CTRL+C to quit[0m
+2025-12-26 19:32:08,812 | 127.0.0.1 - - [26/Dec/2025 19:32:08] "GET / HTTP/1.1" 200 -
+2025-12-26 19:32:10,064 | 127.0.0.1 - - [26/Dec/2025 19:32:10] "GET /video_feed HTTP/1.1" 200 -
+2025-12-26 19:32:13,343 | Error on request:
+Traceback (most recent call last):
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\serving.py", line 333, in execute
+    for data in application_iter:
+                ^^^^^^^^^^^^^^^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\wsgi.py", line 256, in __next__
+    return self._next()
+           ~~~~~~~~~~^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\wrappers\response.py", line 32, in _iter_encoded
+    for item in iterable:
+                ^^^^^^^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\src\flask_app.py", line 56, in generate_frames
+    blur_score, blurry = is_blurry(face_gray)
+    ^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable numpy.float64 object
+2025-12-26 19:32:25,767 | 127.0.0.1 - - [26/Dec/2025 19:32:25] "GET / HTTP/1.1" 200 -
+2025-12-26 19:32:25,903 | 127.0.0.1 - - [26/Dec/2025 19:32:25] "GET /video_feed HTTP/1.1" 200 -
+2025-12-26 19:32:30,684 | Error on request:
+Traceback (most recent call last):
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\serving.py", line 333, in execute
+    for data in application_iter:
+                ^^^^^^^^^^^^^^^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\wsgi.py", line 256, in __next__
+    return self._next()
+           ~~~~~~~~~~^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\wrappers\response.py", line 32, in _iter_encoded
+    for item in iterable:
+                ^^^^^^^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\src\flask_app.py", line 56, in generate_frames
+    blur_score, blurry = is_blurry(face_gray)
+    ^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable numpy.float64 object
+2025-12-26 19:33:03,908 | 127.0.0.1 - - [26/Dec/2025 19:33:03] "GET / HTTP/1.1" 200 -
+2025-12-26 19:33:04,028 | 127.0.0.1 - - [26/Dec/2025 19:33:04] "GET /video_feed HTTP/1.1" 200 -
+2025-12-26 19:33:05,969 | Error on request:
+Traceback (most recent call last):
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\serving.py", line 333, in execute
+    for data in application_iter:
+                ^^^^^^^^^^^^^^^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\wsgi.py", line 256, in __next__
+    return self._next()
+           ~~~~~~~~~~^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\wrappers\response.py", line 32, in _iter_encoded
+    for item in iterable:
+                ^^^^^^^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\src\flask_app.py", line 56, in generate_frames
+    blur_score, blurry = is_blurry(face_gray)
+    ^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable numpy.float64 object
+2025-12-26 19:41:25,490 | 127.0.0.1 - - [26/Dec/2025 19:41:25] "GET /video_feed HTTP/1.1" 200 -
+2025-12-26 19:41:32,584 | Error on request:
+Traceback (most recent call last):
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\serving.py", line 333, in execute
+    for data in application_iter:
+                ^^^^^^^^^^^^^^^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\wsgi.py", line 256, in __next__
+    return self._next()
+           ~~~~~~~~~~^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\wrappers\response.py", line 32, in _iter_encoded
+    for item in iterable:
+                ^^^^^^^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\src\flask_app.py", line 56, in generate_frames
+    blur_score, blurry = is_blurry(face_gray)
+    ^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable numpy.float64 object
+2025-12-26 19:44:21,362 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.150.14.104:5000
+2025-12-26 19:44:21,363 | [33mPress CTRL+C to quit[0m
+2025-12-26 19:44:38,549 | 127.0.0.1 - - [26/Dec/2025 19:44:38] "GET / HTTP/1.1" 200 -
+2025-12-26 19:44:40,773 | 127.0.0.1 - - [26/Dec/2025 19:44:40] "GET /video_feed HTTP/1.1" 200 -
+2025-12-26 19:44:41,922 | Error on request:
+Traceback (most recent call last):
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\serving.py", line 333, in execute
+    for data in application_iter:
+                ^^^^^^^^^^^^^^^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\wsgi.py", line 256, in __next__
+    return self._next()
+           ~~~~~~~~~~^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\venv\Lib\site-packages\werkzeug\wrappers\response.py", line 32, in _iter_encoded
+    for item in iterable:
+                ^^^^^^^^
+  File "E:\Personal Learning\Computer coding\Data Science\OpenCV\OpenCV_Projects\Real-time Facial Detection\src\flask_app.py", line 63, in generate_frames
+    blur_score, blurry = is_blurry(face_gray)
+    ^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable numpy.float64 object
+2025-12-26 19:58:42,901 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.150.14.104:5000
+2025-12-26 19:58:42,901 | [33mPress CTRL+C to quit[0m
+2025-12-26 19:58:48,967 | 127.0.0.1 - - [26/Dec/2025 19:58:48] "GET / HTTP/1.1" 200 -
+2025-12-26 19:58:50,876 | 127.0.0.1 - - [26/Dec/2025 19:58:50] "GET /video_feed HTTP/1.1" 200 -
+2025-12-26 19:59:04,858 | BLUR_DETECTED | score=49.91
+2025-12-26 19:59:12,244 | BLUR_DETECTED | score=61.67
+2025-12-26 19:59:17,245 | BLUR_DETECTED | score=19.15
+2025-12-26 19:59:22,436 | BLUR_DETECTED | score=16.22
+2025-12-26 19:59:28,923 | BLUR_DETECTED | score=14.36
+2025-12-26 19:59:34,589 | BLUR_DETECTED | score=47.66
+2025-12-26 19:59:39,449 | BLUR_DETECTED | score=49.01
+2025-12-26 19:59:44,472 | BLUR_DETECTED | score=46.51
+2025-12-26 19:59:50,781 | BLUR_DETECTED | score=65.29
+2025-12-26 19:59:55,886 | BLUR_DETECTED | score=54.30
+2025-12-26 20:00:00,822 | BLUR_DETECTED | score=58.64
+2025-12-26 20:00:05,826 | BLUR_DETECTED | score=23.86
+2025-12-26 20:00:10,866 | BLUR_DETECTED | score=59.14
+2025-12-26 20:00:15,935 | BLUR_DETECTED | score=50.87
+2025-12-26 20:00:21,028 | BLUR_DETECTED | score=43.80
+2025-12-26 20:00:26,113 | BLUR_DETECTED | score=61.59
+2025-12-26 20:00:31,216 | BLUR_DETECTED | score=19.36
+2025-12-26 20:00:36,354 | BLUR_DETECTED | score=15.04
+2025-12-26 20:00:42,338 | BLUR_DETECTED | score=36.43
+2025-12-26 20:00:47,387 | BLUR_DETECTED | score=58.36
+2025-12-26 20:00:52,642 | BLUR_DETECTED | score=71.63
+2025-12-26 20:00:57,912 | BLUR_DETECTED | score=79.99
+2025-12-26 20:01:06,319 | BLUR_DETECTED | score=23.11
