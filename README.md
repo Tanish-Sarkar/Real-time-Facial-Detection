@@ -35,7 +35,7 @@ C --> D["Face Detection (Haar Cascade)"];
 D --> E["Blur Detection (Laplacian Variance)"];
 E --> F[Annotation (Boxes + Labels)];
 F --> G["MJPEG Stream (Flask)"];
-G --> H[Browser Display];
+G --> H["Browser Display"];
 ```
 
 ---
