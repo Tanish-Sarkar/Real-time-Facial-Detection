@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
+![Flask](https://img.shields.io/badge/Flask-Web%20Streaming-black?logo=flask)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 # 🎥 Real-Time Face & Blur Detection System
 
 A real-time computer vision system that detects human faces, evaluates blur quality, and streams live annotated video to a web browser using Flask.
@@ -8,7 +14,8 @@ This project focuses on **classical computer vision + real-time systems engineer
 
 ## 🔍 Demo
 
-> *(Add a short GIF here showing face detection + blur labels in the browser)*
+<img src="https://github.com/Tanish-Sarkar/Real-time-Facial-Detection/blob/main/outputs/blur_score_ss1.png" alt="img1"/>
+<img src="https://github.com/Tanish-Sarkar/Real-time-Facial-Detection/blob/main/outputs/blur_score_ss_on_browser.png" alt="img2"/>
 
 ---
 
@@ -29,11 +36,11 @@ This project focuses on **classical computer vision + real-time systems engineer
 
 ```mermaid
 graph TD;
-A[Webcam] --> B[OpenCV Frame Capture];
-B --> C[Grayscale Conversion];
+A["Webcam"] --> B["OpenCV Frame Capture"];
+B --> C["Grayscale Conversion"];
 C --> D["Face Detection (Haar Cascade)"];
 D --> E["Blur Detection (Laplacian Variance)"];
-E --> F[Annotation (Boxes + Labels)];
+E --> F["Annotation (Boxes + Labels)"];
 F --> G["MJPEG Stream (Flask)"];
 G --> H["Browser Display"];
 ```
@@ -84,7 +91,7 @@ http://127.0.0.1:5000
 ```
 
 📁 Project Structure
-```
+```ruby
 project-opencv/
 │
 ├── src/
@@ -120,10 +127,30 @@ project-opencv/
 * Debugging generator lifecycle & hardware resources
 * Designing CV systems with observability (logs + events)
 
-👉 **Future Improvements**
+---
 
-* Replace Haar Cascade with YOLO / DNN-based detector
-* Add multi-face tracking
-* Introduce CNN-based quality classification
-* WebRTC streaming for lower latency
-* Deploy on cloud with camera input abstraction
+## 🏁 Project Closure
+
+This project marks the completion of a **pre-deep-learning computer vision foundation**.
+
+By intentionally using classical techniques (Haar cascades, Laplacian variance) and focusing on real-time system behavior, this project builds the intuition required to understand **why modern CV models (YOLO, ViTs) were needed** — not just how to use them.
+
+Rather than optimizing for accuracy, the emphasis was on:
+- pipeline design
+- system stability
+- resource management
+- real-world failure modes
+
+This foundation makes the transition to modern deep learning–based vision systems significantly more meaningful and less opaque.
+
+---
+
+## 🚀 Next Direction
+
+- Upgrade face detection to YOLO / DNN-based models  
+- Explore Transformer-based vision models (ViT)  
+- Build multi-modal systems combining CV + NLP  
+
+This repository is intentionally **closed in scope** to preserve conceptual clarity.
+
+---
