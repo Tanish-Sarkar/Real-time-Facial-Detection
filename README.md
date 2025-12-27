@@ -21,14 +21,14 @@ This project focuses on **classical computer vision + real-time systems engineer
 
 ## 🚀 Features
 
-- 📷 Real-time webcam capture using OpenCV
-- 🙂 Face detection using Haar Cascades
-- 🔍 Blur detection using Laplacian variance
-- 🧠 CLEAR / BLURRY classification with thresholding
-- 🌐 Live MJPEG video streaming via Flask
-- 📸 Event-based frame saving (only when blur detected)
-- 📝 Detection logs with timestamps
-- ⚙️ Stable resource management (camera lifecycle handling)
+-  Real-time webcam capture using OpenCV
+-  Face detection using Haar Cascades
+-  Blur detection using Laplacian variance
+-  CLEAR / BLURRY classification with thresholding
+-  Live MJPEG video streaming via Flask
+-  Event-based frame saving (only when blur detected)
+-  Detection logs with timestamps
+-  Stable resource management (camera lifecycle handling)
 
 ---
 
@@ -129,7 +129,7 @@ project-opencv/
 
 ---
 
-## 🏁 Project Closure
+## Project Closure
 
 This project marks the completion of a **pre-deep-learning computer vision foundation**.
 
